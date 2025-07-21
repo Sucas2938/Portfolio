@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Career Goals</title>
+            <link rel="stylesheet" href="master.css">
+
+        <header>
+            <nav>
+                <a href="resume.html">Resume</a> | 
+                <a href="cover-letter.html">Cover Letter</a>
+                <hr>
+            </nav>
+        </header>
+    </head>
+    <body>
+        <h1 id="form_heading">Contact Me</h1>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post"></form>
+            <p>
+                <label for="First">First Name: </label>
+                <input type="text" id="First" name="first" placeholder="Fred">
+            </p>
+            <p>
+                <label for="Last">Last Name: </label>
+                <input type="text" id="Last" name="last" placeholder="Flintstone">
+            </p>
+            <p>
+                <label for="company">Company name: </label>
+                <input type="text" id="company" name="company" placeholder="Google">
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="test@gmail.com">
+            </p>
+            <p>
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phone" placeholder="111-111-1111">
+            </p>
+            <p>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" rows="4" cols="50" placeholder="I've been trying to reach you about your cars extended warranty..."></textarea>
+            </p>
+            <p>
+                <p>Best Contact Time:</p>
+                <div>
+                <input type="radio" name="time" id="am" value="AM">
+                <label for="am">AM</label>
+                </div>
+                <div>
+                <input type="radio" name="time" id="pm" value="PM">
+                <label for="pm">PM</label>
+                </div>
+                <div>
+                <input type="radio" name="time" id="anytime" value="Anytime">
+                <label for="anytime">Anytime</label>
+                </div>
+            </p>
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
