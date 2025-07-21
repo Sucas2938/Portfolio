@@ -1,3 +1,14 @@
+/* Block and Inline elements direct styling */
+
+main {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    line-height: 1.2;
+
+}
+
 table, td, th {
     border: 3px solid grey;
     font-size: 20px;
@@ -7,19 +18,43 @@ caption {
     font-size: 30px;
 }
 
-div {
-    line-height: 1.5;
-}
-
-h3 {
-    margin-bottom: 35px;
-}
-
-p {
-    line-height: 1.2;
-
-}
-
 footer {
     margin-top: 50px;
 }
+
+/* ID Identifiers */
+
+#form_header {
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+#cover_letter_title {
+    margin-bottom: 35px;
+}
+
+/* Class Identifiers */
+
+.header_info {
+    line-height: 1.5;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* commented_material_example */
