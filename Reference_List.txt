@@ -2,3 +2,5 @@ References:
 comments in CSS: https://www.w3schools.com/css/css_comments.asp
 
 color palette: https://coolors.co/0d1321-1d2d44-3e5c76-748cab-f0ebd8
+
+Different options for list-style-type: https://www.w3schools.com/cssref/pr_list-style-type.php
