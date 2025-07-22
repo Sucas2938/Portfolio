@@ -1,23 +1,18 @@
 /* Block and Inline elements direct styling */
 
 nav {
-  background-color: #1e1e2f;
+  background-color: #3E5C76;
   padding: 10px 20px;
   display: flex;
-  gap: 15px;
+  gap: 30px;
   justify-content: center; 
 }
 
 
 body {
         background-color: #1D2D44;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         color: white;
-}
-
-p {
-    line-height: 1.2;
-
 }
 
 a {
@@ -28,9 +23,15 @@ table {
     color: white
 }
 
-td, th {
+td {
     border: 3px solid grey;
     font-size: 20px;
+    padding: 5px;
+}
+
+th {
+    border: 3px solid grey;
+    font-size: 23px;
     padding: 5px;
 }
 
@@ -84,12 +85,28 @@ select {
 
 .table_headers {
     font-style: italic;
+
 }
 
 .form_wrapper {
     background-color:#3E5C76;
     padding-top: 5;
     padding: 5 20 10 20;
+}
+
+.resume_intro {
+    text-align: center;
+    margin-top: 30;
+}
+
+.resume_section {
+    margin: 50px 0;
+}
+
+.resume_job_timeline {
+    padding: 5;
+    background-color: #0D1321;
+    font-size: 14px;
 }
 
 
