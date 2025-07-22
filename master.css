@@ -1,12 +1,18 @@
 /* Block and Inline elements direct styling */
 
-main {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
+nav {
+  background-color: #1e1e2f;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center; 
 }
+
 
 body {
         background-color: #1D2D44;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
 }
 
 p {
