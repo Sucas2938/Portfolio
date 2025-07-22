@@ -23,22 +23,19 @@ a {
 table {
     color: white;
     margin-bottom: 50px;
+    border-collapse: collapse;
 }
 
-td {
-    border: 3px solid grey;
+td, th {
+    border: 3px solid #3E5C76;
     font-size: 20px;
     padding: 5px;
 }
-
-th {
-    border: 3px solid grey;
-    font-size: 23px;
-    padding: 5px;
-}
-
 caption {
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 footer {
@@ -47,6 +44,14 @@ footer {
 
 select {
     margin: 10 0 50 0;
+}
+
+span {
+    font-style: italic;
+}
+
+li {
+    list-style-type: square;
 }
 
 /* ID Identifiers */
@@ -74,6 +79,11 @@ select {
     padding: 5 0 0 0;
 }
 
+#reference_name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
 
 
 /* Class Identifiers */
@@ -111,12 +121,18 @@ select {
 }
 
 .resume_reference {
-    padding: 5;
-    margin: 10px 0;
+    padding: 10px;
     background-color: #3E5C76;
     font-size: 14px;
+    border-radius: 6px;
+    flex:1;
 }
 
+.resume_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
 
 

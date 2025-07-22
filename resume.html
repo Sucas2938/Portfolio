@@ -14,8 +14,9 @@
                 <section class="header_info">
                     <div>Lucas Seeley</div>
                     <div>Meadville, PA</div>
-                    <div>555-555-555</div>
-                    <a href="www.lucas-seeley.com">www.lucas-seeley.com</a>
+                    <div>555-555-5555</div>
+                    <div>fake@gmail.com</div>
+                    <div id="date_display">Date Goes Here</div>
                     <hr>
                 </section>
             </header>
@@ -27,7 +28,7 @@
                         emphasis on user experience.
                     </p>
                     <hr>
-                <section class="resume_section">
+                <section>
                     <h1><u>Experience</u></h1>
                     <span class="resume_job_timeline">Mar. '20 - Present</span>
                     <h3>Bartender & Lead Trainer | The Country Club of Meadville, Meadville, PA</h3>
@@ -50,9 +51,10 @@
                 </section>
                 <section class="resume_section">
                     <h2><u>Education</u></h2>
+                    <span class="resume_job_timeline">Feb. '25 - Present</span>
                     <p>Western Governors University</p>
                     <ul>
-                        <li>Bachelor of Software Engineering in Computer Science, Expected Graduation: Aug 2027</li>
+                        <li>Bachelor of Software Engineering in Computer Science, Expected Graduation: Feb. 2027</li>
                     </ul>               
                 </section> 
                 <section class="resume_section">
@@ -68,7 +70,7 @@
                     </ul>
                 </section>
                 <table>
-                    <caption><u>Technology Toolkit</u></caption>
+                    <caption><u><b>Technology Toolkit</b></u></caption>
                     <tr class="table_headers">
                         <th>Visual Editors</th>
                         <th>Game Dev</th>
@@ -96,19 +98,29 @@
                 </table>
                 <section class="resume_section">
                     <h2><u>References</u></h2>
-                    <article class="resume_reference">
-                        <h3>Daniel Trombley</h3>
-                        <div><b>Country Club of Meadville</b></div>
-                        <div>FOH Manager & Events Coordinator | Manager</div>
-                        <div>Email: daniel@meadvillecc.com</div>
-                    </article>
-                    <article class="resume_reference">
-                        <h3>Cody Stivanson</h3>
-                        <div><b>Side Inc.</b></div>
-                        <div>Website Services Engineer | Co-worker</div>
-                        <div>Email: c.stivanson@gmail.com</div>
-                    </article>
+                    <div class="resume_container">
+                        <article class="resume_reference">
+                            <div id="reference_name">Daniel Trombley</div>
+                            <div><b>Country Club of Meadville</b></div>
+                            <div>FOH Manager | Manager</div>
+                            <div>Email: daniel@meadvillecc.com</div>
+                        </article>
+                    <br>
+                        <article class="resume_reference">
+                            <div id="reference_name">Cody Stivanson</div>
+                            <div><b>Side Inc.</b></div>
+                            <div>Website Services Engineer | Co-worker</div>
+                            <div>Email: c.stivanson@gmail.com</div>
+                        </article>
+                    </div>
                 </section> 
-        </main>
+            </main>
+        <script>
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString(); 
+
+            document.getElementById("date_display").textContent = formattedDate;
+            console.log("Date successfully populated: " + formattedDate);
+        </script>
     </body>
 </HTMl>
