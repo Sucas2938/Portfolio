@@ -118,6 +118,7 @@ li {
     padding: 5;
     background-color: #3E5C76;
     font-size: 14px;
+    border-radius: 6px;
 }
 
 .resume_reference {
