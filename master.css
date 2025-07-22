@@ -1,8 +1,9 @@
 /* Block and Inline elements direct styling */
 
 nav {
-  background-color: #3E5C76;
+  background-color: #0D1321;
   padding: 10px 20px;
+  margin-bottom: 10px;
   display: flex;
   gap: 30px;
   justify-content: center; 
@@ -20,7 +21,8 @@ a {
 }
 
 table {
-    color: white
+    color: white;
+    margin-bottom: 50px;
 }
 
 td {
@@ -77,7 +79,6 @@ select {
 /* Class Identifiers */
 
 
-
 .header_info {
     line-height: 1.5;
     font-style: italic;
@@ -105,7 +106,14 @@ select {
 
 .resume_job_timeline {
     padding: 5;
-    background-color: #0D1321;
+    background-color: #3E5C76;
+    font-size: 14px;
+}
+
+.resume_reference {
+    padding: 5;
+    margin: 10px 0;
+    background-color: #3E5C76;
     font-size: 14px;
 }
 
