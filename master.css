@@ -2,6 +2,11 @@
 
 main {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+}
+
+body {
+        background-color: #1D2D44;
 }
 
 p {
@@ -9,9 +14,18 @@ p {
 
 }
 
-table, td, th {
+a {
+    color:#F0EBD8
+}
+
+table {
+    color: white
+}
+
+td, th {
     border: 3px solid grey;
     font-size: 20px;
+    padding: 5px;
 }
 
 caption {
@@ -22,10 +36,18 @@ footer {
     margin-top: 50px;
 }
 
+select {
+    margin: 10 0 50 0;
+}
+
 /* ID Identifiers */
 
 #form_header {
-    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-style: italic;
 }
 
 #cover_letter_title {
@@ -33,20 +55,36 @@ footer {
 }
 
 #form_container {
-    background-color:blueviolet;
-    padding: 20px;
+
+    background-color:#0D1321;
+    padding: 10 20 40 20;
+    margin: 30;
 }
 
+#selection_title {
+    padding: 5 0 0 0;
+}
+
+
+
 /* Class Identifiers */
+
+
 
 .header_info {
     line-height: 1.5;
     font-style: italic;
-
 }
 
+.table_headers {
+    font-style: italic;
+}
 
-
+.form_wrapper {
+    background-color:#3E5C76;
+    padding-top: 5;
+    padding: 5 20 10 20;
+}
 
 
 

@@ -44,21 +44,35 @@
                         <textarea name="message" id="message" rows="4" cols="30" placeholder="I've been trying to reach you about your cars extended warranty..."></textarea>
                     </p>
                     <p>
-                        <div><u>Best Contact Time:</u></div>
-                        <div>
-                            <input type="radio" name="time" id="am" value="AM">
-                            <label for="am">AM</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="time" id="pm" value="PM">
-                            <label for="pm">PM</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="time" id="anytime" value="Anytime">
-                            <label for="anytime">Anytime</label>
-                        </div>
+                        <fieldset>
+                            <legend>Best Contact Time:</legend>
+                            <div>
+                                <input type="radio" name="time" id="am" value="AM">
+                                <label for="am">AM</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="pm" value="PM">
+                                <label for="pm">PM</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="anytime" value="Anytime">
+                                <label for="anytime">Anytime</label>
+                            </div>
+                        </fieldset>
                     </p>
+                    <hr>
+                    <p>
+                        <div id="selection_title"><u>Preferred Contact Method</u></div>
+
+                        <select name="Contact Method">
+                            <option value="Email">Email</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Text">Text</option>
+                        </select>
+                    </p>
+                    
                     <input type="submit" value="Submit Form">
+                    </p>
                 </div>
             </form>
         </section>
