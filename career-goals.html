@@ -1,80 +1,141 @@
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Career Goals</title>
+            <link rel="stylesheet" href="master.css">
+
+        <header>
+            <nav>
+                <a href="resume.html">Resume</a> | 
+                <a href="cover-letter.html">Cover Letter</a>
+            </nav>
+        </header>
+    </head>
     <body>
-        <head>
-            <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Career Goals</title>
-                <link rel="stylesheet" href="master.css">
-
-            <header>
-                <nav>
-                    <a href="resume.html">Resume</a> | 
-                    <a href="cover-letter.html">Cover Letter</a>
-                </nav>
-            </header>
-        </head>
-        <main>
-            <section id="form_container">
-            <div id="form_header"><u>Contact Me</u></div>
-                <form action="https://wp.zybooks.com/form-viewer.php" method="post"></form>
-                    <div class="form_wrapper">
-                        <p>
-                            <label for="First">First Name: </label>
-                            <input type="text" id="First" name="first" placeholder="Fred">
-                        </p>
-                        <p>
-                            <label for="Last">Last Name: </label>
-                            <input type="text" id="Last" name="last" placeholder="Flintstone">
-                        </p>
-                        <p>
-                            <label for="company">Company name: </label>
-                            <input type="text" id="company" name="company" placeholder="Google">
-                        </p>
-                        <p>
-                            <label for="email">Email: </label>
-                            <input type="email" id="email" name="email" placeholder="test@gmail.com">
-                        </p>
-                        <p>
-                            <label for="phone">Phone Number: </label>
-                            <input type="tel" id="phone" name="phone" placeholder="111-111-1111">
-                        </p>
-                        <p>
-                            <label for="message">Message: </label>
-                            <textarea name="message" id="message" rows="4" cols="30" placeholder="I've been trying to reach you about your cars extended warranty..."></textarea>
-                        </p>
-                        <p>
-                            <fieldset>
-                                <legend>Best Contact Time:</legend>
-                                <div>
-                                    <input type="radio" name="time" id="am" value="AM">
-                                    <label for="am">AM</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="time" id="pm" value="PM">
-                                    <label for="pm">PM</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="time" id="anytime" value="Anytime">
-                                    <label for="anytime">Anytime</label>
-                                </div>
-                            </fieldset>
-                        </p>
-                        <hr>
-                        <p>
-                            <div id="selection_title"><u>Preferred Contact Method</u></div>
-
-                            <select name="Contact Method">
-                                <option value="Email">Email</option>
-                                <option value="Phone">Phone</option>
-                                <option value="Text">Text</option>
-                            </select>
-                        </p>
-                        
-                        <input type="submit" value="Submit Form">
-                        </p>
-                    </div>
-                </form>
+    <main>
+        <article>
+            <section>
+                <p>
+                    My career goal is to become a leading software engineer, specializing in developing innovative solutions that enhance user experience and drive business success. I aim to work with cutting-edge technologies and contribute to projects that have a significant impact on users and the industry.
+                </p>
             </section>
-        </main>
+
+            <section>
+                <h2>Short-Term Goals</h2>
+                <ul>
+                    <li>Complete my Bachelor's degree in Software Engineering by February 2027.</li>
+                    <li>Gain hands-on experience through internships or entry-level positions in software development.</li>
+                    <li>Enhance my skills in programming languages such as Python, JavaScript, and C#.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Long-Term Goals</h2>
+                <ul>
+                    <li>Advance to a senior software engineer position within five years of graduation.</li>
+                    <li>Lead a team of developers on large-scale projects that utilize AI and machine learning.</li>
+                    <li>Contribute to open-source projects and share knowledge with the developer community.</li>
+                </ul>
+            </section>
+
+            <section id="career_table_container">
+                <table class="career_table">
+                    <caption>Short-Term Career</caption>
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Avg. Annual Salary</th>
+                    </tr>
+                    <tr>
+                        <td>Entry Level C# Developer</td>
+                        <td>$94,149</td>
+                    </tr>
+                </table>
+                <table class="career_table">
+                    <caption>Long-Term Career</caption>
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Avg. Annual Salary</th>
+                    </tr>
+                    <tr>
+                        <td>Senior C# Developer Salary</td>
+                        <td>$128,400</td>
+                    </tr>
+                </table>   
+            </section>
+
+            <section>
+                <h2>Conclusion</h2>
+                <p>
+                    I am committed to continuous learning and professional growth, and I look forward to achieving my career goals while making meaningful contributions to the field of software engineering.
+                </p>
+            </section>
+        </article>
+        <section id="form_container">
+        <div id="form_header"><u>Contact Me</u></div>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post"></form>
+                <div class="form_wrapper">
+                    <p>
+                        <label for="First">First Name: </label>
+                        <input type="text" id="First" name="first" placeholder="Fred">
+                    </p>
+                    <p>
+                        <label for="Last">Last Name: </label>
+                        <input type="text" id="Last" name="last" placeholder="Flintstone">
+                    </p>
+                    <p>
+                        <label for="company">Company name: </label>
+                        <input type="text" id="company" name="company" placeholder="Google">
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="test@gmail.com">
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" id="phone" name="phone" placeholder="111-111-1111">
+                    </p>
+                    <p>
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" rows="4" cols="30" placeholder="I've been trying to reach you about your cars extended warranty..."></textarea>
+                    </p>
+                    <p>
+                        <fieldset>
+                            <legend>Best Contact Time:</legend>
+                            <div>
+                                <input type="radio" name="time" id="am" value="AM">
+                                <label for="am">AM</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="pm" value="PM">
+                                <label for="pm">PM</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="anytime" value="Anytime">
+                                <label for="anytime">Anytime</label>
+                            </div>
+                        </fieldset>
+                    </p>
+                    <hr>
+                    <p>
+                        <div id="selection_title"><u>Preferred Contact Method</u></div>
+
+                        <select name="Contact Method">
+                            <option value="Email">Email</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Text">Text</option>
+                        </select>
+                    </p>
+                    
+                    <input type="submit" value="Submit Form">
+                    </p>
+                </div>
+            </form>
+        </section>  
+    </main>
     </body>
+    <footer>
+        <hr>
+        <div id="copyright">© 2025 Lucas Seeley</div>
+    </footer>
 </html>
