@@ -98,7 +98,8 @@ li {
 #copyright {
     text-align: center;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 #career_table_container {
@@ -176,11 +177,12 @@ li {
 .career_video {
     width: 50%;
     margin: 20px 0;
+    border-radius: 40px
 }
 
-.career_media {
+.career_container {
     display: flex;
-
+    gap: 20px;
 }
 
 
