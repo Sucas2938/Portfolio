@@ -1,4 +1,4 @@
-Additional References (that weren't directly commented):
+Additional References (that weren't directly commented in HTML files):
 
 Comments in CSS 
 -W3Schools.com. (n.d.). https://www.w3schools.com/css/css_comments.asp

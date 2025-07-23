@@ -22,7 +22,7 @@
     <main>
         <hr>
         <!-- Audio Credit: Lucas Seeley, Career_Goals_Overview.mp3, 2025 -->
-        <audio controls>
+        <audio controls autoplay loop>
             <source src="/Media/Career_Goals_Overview.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
@@ -85,10 +85,10 @@
                     Your browser does not support the video tag.
             </section>
 
-        </articl>
+        </article>
         <section id="form_container">
         <div id="form_header"><u>Contact Me</u></div>
-            <form action="https://wp.zybooks.com/form-viewer.php" method="post"></form>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post" target="_blank">
                 <div class="form_wrapper">
                     <p>
                         <label for="First">First Name: </label>
@@ -118,7 +118,7 @@
                         <fieldset>
                             <legend>Best Contact Time:</legend>
                             <div>
-                                <input type="radio" name="time" id="am" value="AM">
+                                <input type="radio" name="time" id="am" value="AM" checked>
                                 <label for="am">AM</label>
                             </div>
                             <div>
@@ -132,18 +132,16 @@
                         </fieldset>
                     </p>
                     <hr>
-                    <p>
-                        <div id="selection_title"><u>Preferred Contact Method</u></div>
-
-                        <select name="Contact Method">
-                            <option value="Email">Email</option>
-                            <option value="Phone">Phone</option>
-                            <option value="Text">Text</option>
-                        </select>
-                    </p>
+                    <div id="selection_title"><u>Preferred Contact Method</u></div>
+                        <p>
+                            <select name="Contact Method">
+                                <option value="Email">Email</option>
+                                <option value="Phone">Phone</option>
+                                <option value="Text">Text</option>
+                            </select>
+                        </p>
                     
                     <input type="submit" value="Submit Form">
-                    </p>
                 </div>
             </form>
         </section>  
