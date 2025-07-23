@@ -1,6 +1,13 @@
-References:
-comments in CSS: https://www.w3schools.com/css/css_comments.asp
+Additional References (that weren't directly commented):
 
-color palette: https://coolors.co/0d1321-1d2d44-3e5c76-748cab-f0ebd8
+Comments in CSS 
+-W3Schools.com. (n.d.). https://www.w3schools.com/css/css_comments.asp
 
-Different options for list-style-type: https://www.w3schools.com/cssref/pr_list-style-type.php
+Color Palette
+-coolors. (n.d.). Coolors.co. https://coolors.co/0d1321-1d2d44-3e5c76-748cab-f0ebd8
+
+Different Options for List-Style-Type
+-W3Schools.com. (n.d.). https://www.w3schools.com/cssref/pr_list-style-type.php
+
+Learning Material
+-D 276: Web Development Foundations | ZyBooks. (n.d.). https://learn.zybooks.com/zybook/WGUD276v3

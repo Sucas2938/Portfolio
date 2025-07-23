@@ -1,5 +1,9 @@
 /* Block and Inline elements direct styling */
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 nav {
   background-color: #0D1321;
   padding: 10px 20px;
@@ -12,7 +16,6 @@ nav {
 
 body {
         background-color: #1D2D44;
-        font-family: 'Courier New', Courier, monospace;
         color: white;
 }
 
@@ -36,10 +39,6 @@ caption {
     font-size: 25px;
     margin-bottom: 20px;
     text-align: left;
-}
-
-footer {
-    margin-top: 50px;
 }
 
 select {
@@ -93,13 +92,6 @@ li {
 
 #sincerely {
     margin-top: 40px;
-}
-
-#copyright {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 20px;
-    margin-bottom: 100px;
 }
 
 #career_table_container {
@@ -187,13 +179,25 @@ li {
 
 
 
+/* Descendant Selector */
+
+
+
+footer div {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Pseudo-Class Selector */
+
+a:hover {
+  color: red;
+}
 
 
 
 
-
-
-
-
-
-/* commented_material_example */
