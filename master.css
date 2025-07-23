@@ -161,20 +161,19 @@ li {
 }
 
 .career_image {
-    border-radius: 40px;
-    margin: 20px 10px;
+
     width: 50%;
 }
 
 .career_video {
     width: 50%;
-    margin: 20px 0;
-    border-radius: 40px
+
 }
 
 .career_container {
     display: flex;
-    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 
