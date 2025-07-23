@@ -85,6 +85,22 @@ li {
     margin-bottom: 5px;
 }
 
+#company {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+#sincerely {
+    margin-top: 40px;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 
 /* Class Identifiers */
 
