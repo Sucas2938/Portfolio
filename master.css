@@ -170,6 +170,17 @@ li {
 .career_image {
     border-radius: 40px;
     margin: 20px 10px;
+    width: 50%;
+}
+
+.career_video {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.career_media {
+    display: flex;
+
 }
 
 
