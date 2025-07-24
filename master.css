@@ -4,6 +4,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 nav {
   background-color: #0D1321;
   padding: 10px 20px;
@@ -51,6 +52,10 @@ span {
 
 li {
     list-style-type: square;
+}
+
+footer {
+    margin-top: 100px;
 }
 
 /* ID Identifiers */
@@ -185,8 +190,6 @@ li {
 footer div {
     text-align: center;
     font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 
