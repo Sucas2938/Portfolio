@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link rel="stylesheet" href="master.css">
+    </head>
+    <body>
+            <header>
+                <nav>
+                    <a href="cover-letter.html">Cover Letter</a> | 
+                    <a href="career-goals.html">Career Goals</a>  
+                </nav>
+                <section class="header_info">
+                    <div>Lucas Seeley</div>
+                    <div>Meadville, PA</div>
+                    <div>555-555-5555</div>
+                    <div>fake@gmail.com</div>
+                    <div id="date_display">Date Goes Here</div>
+                    <hr>
+                </section>
+            </header>
+            <main>
+                    <p class="resume_intro">
+                        Innovative and challenge-focused <strong><em>Designer & Developer</em></strong> dedicated to crafting 
+                        user-friendly, visually appealing interfaces for websites and games. I leverage 
+                        a broad, evolving technical skillset to build engaging projects with a strong 
+                        emphasis on user experience.
+                    </p>
+                    <hr>
+                <section>
+                    <h1><u>Experience</u></h1>
+                    <span class="resume_job_timeline">Mar. '20 - Present</span>
+                    <h3>Bartender & Lead Trainer | The Country Club of Meadville, Meadville, PA</h3>
+                    <ul>
+                        <li>Managed multiple events with calm, quick decisions.</li>
+                        <li>Coordinated event logistics for fast, efficient execution.</li>
+                        <li>Trained new staff on service standards and procedures.</li>
+                        <li>Served 500+ members, memorizing names and preferences.</li>
+                    </ul>
+                </section>
+                <section class="resume_section">
+                    <span class="resume_job_timeline">Mar. '22 - Present</span>
+                    <h3>Website Services Engineer | Side Inc., San Francisco, CA</h3>
+                    <ul>
+                        <li>Resolved major bug impacting 1800 agents same-day.</li>
+                        <li>Offboarded agents across 500+ teams smoothly.</li>
+                        <li>Improved Jira and Salesforce workflows for efficiency.</li>
+                        <li>Created training materials to support daily operations.</li>
+                    </ul>
+                </section>
+                <section class="resume_section">
+                    <h2><u>Education</u></h2>
+                    <span class="resume_job_timeline">Feb. '25 - Present</span>
+                    <p>Western Governors University</p>
+                    <ul>
+                        <li>Bachelor of Software Engineering in Computer Science, Expected Graduation: Feb. 2027</li>
+                    </ul>               
+                </section> 
+                <section class="resume_section">
+                    <h1><u>Certifications</u></h1>
+                    <ul>
+                        <li>ChatGPT Masterclass: Chat GPT Guide for Beginners to Experts!</li>
+                        <li><a href="https://www.udemy.com/certificate/UC-dc9b4c08-6bea-4df2-9458-be4fae3a557c/" target="_blank">Guide to Multiplayer Game Development in Unity</a></li>
+                        <li><a href="https://www.freecodecamp.org/certification/luseeley/javascript-algorithms-and-data-structures" target="_blank">Algoithms and Data Structures Certification</a></li>
+                        <li><a href="https://www.freecodecamp.org/certification/luseeley/responsive-web-design" target="_blank">Responsive Web Design</a></li>
+                        <li>SharePoint - Complete Guide to Microsoft SharePoint Online</li>
+                        <li><a href="https://www.udemy.com/certificate/UC-0209a71f-b854-4b56-977e-961b7dda428d/" target="_blank">Game Design Canvas and Document</a></li>
+                        <li><a href="https://www.udemy.com/certificate/UC-f853a446-080f-422b-9296-48707c18595e/" target="_blank">Psychology of Games - Secrets of Good Game Design</a></li>
+                    </ul>
+                </section>
+                <table>
+                    <caption><u><b>Technology Toolkit</b></u></caption>
+                    <tr class="table_headers">
+                        <th>Visual Editors</th>
+                        <th>Game Dev</th>
+                        <th>Web Dev</th>
+                        <th>Video & Modeling</th>
+                    </tr>
+                    <tr>
+                        <td>Krita</td>
+                        <td>Unity</td>
+                        <td>Wordpress</td>
+                        <td>OBS Studio</td>
+                    </tr>
+                    <tr>
+                        <td>Photoshop</td>
+                        <td>Unreal</td>
+                        <td>Elementor</td>
+                        <td>Blender</td>
+                    </tr>
+                </table>
+                    <article class="resume_section">
+                        <h2><u>References</u></h2>
+                        <div class="resume_container">
+                            <section class="resume_reference">
+                                <div id="reference_name">Daniel Trombley</div>
+                                <hr>
+                                <div id="company">Country Club of Meadville</div>
+                                <div>FOH Manager | Manager</div>
+                                <div>Email: daniel@meadvillecc.com</div>
+                            </section>
+                        <br>
+                            <section class="resume_reference">
+                                <div id="reference_name">Cody Stivanson</div>
+                                <hr>
+                                <div id="company">Side Inc.</div>
+                                <div>Website Services Engineer | Co-worker</div>
+                                <div>Email: c.stivanson@gmail.com</div>
+                            </section>
+                        </div>
+                    </article>
+                </main>
+                <footer>
+                    <hr>
+                    <div id="copyright">© 2025 Lucas Seeley</div>
+                </footer> 
+        <script>
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString(); 
+
+            document.getElementById("date_display").textContent = formattedDate;
+            console.log("Date successfully populated: " + formattedDate);
+        </script>
+    </body>
+</html>
